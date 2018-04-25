@@ -1,4 +1,4 @@
 # ETL
-#informatica/ODI/Pendaho/Talend/Tableau Pre
+informatica/ODI/Pendaho/Talend/Tableau Pre
 
-#Did Exercises and posted them on their folder
+Did Exercises and posted them on their folder
