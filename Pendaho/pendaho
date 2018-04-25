@@ -1,0 +1,26 @@
+/*! Github Dark v1.20.34 (2018-04-11) */
+  /* Repository: https://github.com/StylishThemes/GitHub-Dark    */
+  /* Userstyle:  http://userstyles.org/styles/37035              */
+  /* License:    https://creativecommons.org/licenses/by-sa/4.0/ */
+@-moz-document regexp("^https?://((blog|gist|guides|help|raw|status|developer)\\.)?github\\.com/((?!generated_pages/preview).)*$"), domain("githubusercontent.com"), domain("graphql-explorer.githubapp.com") {
+  /* begin auto-generated rules - use tools/generate.js to generate them */
+  /* auto-generated rule for "background-color: #2cbe4e" */
+  .State--green, .block-diff-added, .block-diff-neutral,
+  .discussion-item-reopened .discussion-item-icon,
+  .discussion-item-review.is-approved.is-writer .discussion-item-icon,
+  .progress-bar .progress, .branch-action-state-clean .branch-action-icon,
+  .completeness-indicator-success {
+    background-color: #163 !important;
+  }
+  /* auto-generated rule for "background-color: #d1d5da" */
+  .block-diff-neutral {
+    background-color: #444 !important;
+  }
+  /* auto-generated rule for "background-color: #6f42c1" */
+  .bg-purple, .State--purple, .discussion-item-merged .discussion-item-icon,
+  .branch-action-state-merged .branch-action-icon, .btn-outline-purple:hover,
+  .btn-outline-purple:active, .btn-outline-purple.selected,
+  [open]>.btn-outline-purple {
+    background-color: #6e5494 !important;
+  }
+#Pendaho is opensource software and genrally meet routine business requirements, it can do almost all works informatica does 
