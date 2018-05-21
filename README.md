@@ -1,5 +1,5 @@
 # ETL/ELT
-informatica/ODI/Pendaho/Talend/Tableau Pre
+informatica/ODI/Pendaho/Talend/Tableau Prep
 
 I ever used all of them in the different years in the companies, Did Exercises and posted them on their folder
 
