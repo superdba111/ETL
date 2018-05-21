@@ -8,3 +8,5 @@ Tableau Prep can do the following, Data clean, combine, aggregate, workflow, piv
 Besides aboves, all ETL/ELT tool can do lookup, router, sorter, rank, data validation etc.
 
 tried other ETL tools like datastage, babelway, boomi but gave them up
+
+Python with Airflow ETL is located DS folder, here are all tools 
