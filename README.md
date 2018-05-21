@@ -20,17 +20,17 @@ Here are some checklist for your ETL testing plan,
 ### Syntax Testing: checks for poor data due to invalid characters and incorrect character cases.
 ### Data Validation: checks whether the values of the data post-transformation are the same as their expected values with respect to the the source values.
 
-###Reusability--- use ETL Templates and Packages for handling Common functions 
-###Auditability--- Track input and output records at Every step - (ETL Process iD)
-###Change Data Capture:  Process new, Changed or Deleted Data only 
-###Data staging:  record of Data that will be - and was - Loaded
-###Data Consistency:  Ensure Consistency/Conformity of Target Data
-###Load Lockout mgmt:  Prevent user access to inconsistent Data During Load Cycle
-###Data Profiling:  Check validity of source Data
-###recovery and restart:  Logic is graceful at Preventing Data Deduplication 
-###Data validation:  Provide Data accounting from source to Targets
-###Error handling:  graceful Termination with notification to a Consistent Data state
-###fit for function:  adopt Design Practices that Best fit the functional goals    
-WWW
+Reusability--- use ETL Templates and Packages for handling Common functions 
+Auditability--- Track input and output records at Every step - (ETL Process iD)
+Change Data Capture:  Process new, Changed or Deleted Data only 
+Data staging:  record of Data that will be - and was - Loaded
+Data Consistency:  Ensure Consistency/Conformity of Target Data
+Load Lockout mgmt:  Prevent user access to inconsistent Data During Load Cycle
+Data Profiling:  Check validity of source Data
+recovery and restart:  Logic is graceful at Preventing Data Deduplication 
+Data validation:  Provide Data accounting from source to Targets
+Error handling:  graceful Termination with notification to a Consistent Data state
+fit for function:  adopt Design Practices that Best fit the functional goals    
+
 
 
