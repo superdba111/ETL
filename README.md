@@ -3,7 +3,7 @@ informatica/ODI/Pendaho/Talend/SSIS/Tableau Prep
 
 I ever used all of them in the different years in the companies, Did Exercises and posted them on their folder
 
-Tableau Prep can do the following, Data clean, combine, aggregate, workflow, pivot, union, join, filter etc. This Feb(2018) I gave my feedback to Tableau Beta support on no rep, bad error handling as well as JVM performance issue for large data etc, suggestions--the user can turn off/on some calculations like data distribution etc
+Tableau Prep can do the following, Data clean, combine, aggregate, workflow, pivot, union, join, filter etc. This Feb(2018) I gave my feedback to Tableau Beta support on no. rep, bad error handling as well as JVM performance issue for large data etc, suggestions--the user can turn off/on some calculations like data distribution etc
 
 Besides aboves, all ETL/ELT tool can do lookup, router, sorter, rank, data validation etc.
 
@@ -42,5 +42,11 @@ Error handling:  graceful Termination with notification to a Consistent Data sta
 
 fit for function:  adopt Design Practices that Best fit the functional goals    
 
+MDM should be focused on a business problem
 
+## Tracing data lineage - which sources contributed to this record?
+## Data versioning - what did this product look like last year?
+## Business hierarchies - what parent entity does this organization roll up to?
+## Automatically generated user interface for non-technical users to maintain data
+## Workflows for reviewing and confirming system-identified matches
 
