@@ -42,7 +42,7 @@ Error handling:  graceful Termination with notification to a Consistent Data sta
 
 fit for function:  adopt Design Practices that Best fit the functional goals    
 
-MDM should be focused on a business problem
+### MDM should be focused on a business problem
 
 ## Tracing data lineage - which sources contributed to this record?
 ## Data versioning - what did this product look like last year?
