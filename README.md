@@ -1,5 +1,5 @@
 # ETL/ELT
-informatica/ODI/Pendaho/Talend/SSIS/Tableau Prep
+Denodo/informatica/ODI/Pendaho/Talend/SSIS/Tableau Prep
 
 I ever used all of them in the different years in the companies, Did Exercises and posted them on their folder
 
