@@ -1,0 +1,13 @@
+{
+    "callback": {
+        "url": "https://www.example.com/callback",
+        "method": "post"
+    },
+    "query": {
+        "module": {
+            "api_name": "Events"
+        },
+        "file_type": "csv"
+    },
+    "page" : 1
+}

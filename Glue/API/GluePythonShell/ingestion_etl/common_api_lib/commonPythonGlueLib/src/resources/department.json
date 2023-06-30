@@ -1,0 +1,81 @@
+{
+    "links": [
+        {
+            "rel": "next",
+            "href": "https://5195388-sb1.suitetalk.api.netsuite.com/services/rest/query/v1/suiteql?limit=5&offset=5"
+        },
+        {
+            "rel": "last",
+            "href": "https://5195388-sb1.suitetalk.api.netsuite.com/services/rest/query/v1/suiteql?limit=5&offset=35"
+        },
+        {
+            "rel": "self",
+            "href": "https://5195388-sb1.suitetalk.api.netsuite.com/services/rest/query/v1/suiteql?limit=5"
+        }
+    ],
+    "count": 5,
+    "hasMore": true,
+    "items": [
+        {
+            "links": [],
+            "externalid": "General & Admin",
+            "fullname": "General & Admin",
+            "id": "101",
+            "includechildren": "F",
+            "isinactive": "F",
+            "lastmodifieddate": "02/16/2021",
+            "name": "General & Admin",
+            "subsidiary": "2, 3, 9, 11"
+        },
+        {
+            "links": [],
+            "fullname": "General & Admin : Admin",
+            "id": "205",
+            "includechildren": "T",
+            "isinactive": "F",
+            "lastmodifieddate": "11/27/2021",
+            "name": "Admin",
+            "parent": "101",
+            "subsidiary": "1, 2, 3, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21"
+        },
+        {
+            "links": [],
+            "externalid": "Corporate Management",
+            "fullname": "General & Admin : Executive",
+            "id": "102",
+            "includechildren": "T",
+            "isinactive": "F",
+            "lastmodifieddate": "11/27/2021",
+            "name": "Executive",
+            "parent": "101",
+            "subsidiary": "1, 2, 3, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21"
+        },
+        {
+            "links": [],
+            "externalid": "Finance and Administration",
+            "fullname": "General & Admin : Finance",
+            "id": "103",
+            "includechildren": "F",
+            "isinactive": "F",
+            "lastmodifieddate": "03/04/2022",
+            "name": "Finance",
+            "parent": "101",
+            "subsidiary": "1, 2, 3, 9, 11, 14, 15, 16"
+        },
+        {
+            "links": [],
+            "externalid": "G & A",
+            "fullname": "General & Admin : G & A",
+            "id": "105",
+            "includechildren": "T",
+            "isinactive": "F",
+            "lastmodifieddate": "02/24/2020",
+            "name": "G & A",
+            "parent": "101",
+            "subsidiary": "1, 2, 3, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21",
+            "testcolumn": "this is for test"
+        }
+    ],
+    "offset": 0,
+    "totalResults": 39
+}

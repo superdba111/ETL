@@ -1,0 +1,324 @@
+employee_properties:
+  src_columns: [
+    "EmployeeNumber",
+    "XRefCode",
+    "LastModifiedTimestamp"
+  ]
+  dest_columns: [
+    "employee_number",
+    "xref_code",
+    "last_modified_timestamp"
+  ]
+  json_dest_columns: [
+    "employee_number",
+    "employee_xref_code",
+    "display_name",
+    "first_name",
+    "last_name",
+    "last_modified_timestamp",
+    "employee_properties"
+  ]
+  option_value_columns: [
+    "Long Name",
+    "XRefCode"
+  ]
+  employee_properties_columns: [
+    "Class",
+    "Business Unit"
+  ]
+  parquet_dest_columns: [
+    "employee_number",
+    "employee_xref_code",
+    "display_name",
+    "last_modified_timestamp",
+    "business_unit_xref_code",
+    "business_unit_short_name",
+    "class_xref_code",
+    "class_short_name"
+  ]
+  drop_columns: [
+    "RequiresExitInterview",
+    "BioExempt",
+    "BirthDate",
+    "ChecksumTimestamp",
+    "Culture",
+    "EmployeePin",
+    "Gender",
+    "HireDate",
+    "FirstName",
+    "LastName",
+    "LastPayrollNewHireExportDate",
+    "NewHireApprovalDate",
+    "NewHireApproved",
+    "EstimatedReturnDate",
+    "NewHireApprovedBy",
+    "OriginalHireDate",
+    "PhotoExempt",
+    "SeniorityDate",
+    "SocialSecurityNumber",
+    "StartDate",
+    "TerminationDate",
+    "FirstTimeAccessEmailSentCount",
+    "FirstTimeAccessVerificationAttempts",
+    "SendFirstTimeAccessEmail",
+    "LoginId",
+    "HomePhone",
+    "EmployeeBadge",
+    "EligibleForRehire",
+    "EligibleForOnDemandPay",
+    "EligibleForDFWalletPayCard",
+    "IsAboriginal",
+    "IsVisibleMinority",
+    "RegisteredDisabled",
+    "MiddleName",
+    "PreStartDate",
+    "CommonName",
+    "Title",
+    "Initials",
+    "CitizenshipType",
+    "MaidenName",
+    "SSNExpiryDate",
+    "VeteranSeparationDate",
+    "PreferredLastName",
+    "HomeOrganization",
+    "GenderIdentity",
+    "UserAccount",
+    "UnknownBirthDate",
+    "Suffix",
+    "PPACAOverrideDate",
+    "EntitlementOverrideDate"
+  ]
+  dtypes: {
+    'employee_number':'string',
+    'employee_xref_code':'string',
+    'display_name':'string',
+    'first_name':'string',
+    'last_name':'string',
+    'last_modified_timestamp':'timestamp',
+    'business_unit_xref_code':'string',
+    'business_unit_short_name':'string',
+    'class_xref_code':'string',
+    'class_short_name':'string'
+  }
+  lastupdatecolumn: "lastmodified"
+  start_date: "2022-01-01"
+  end_date: "2022-12-31"
+employee_payroll_summary :
+  src_columns: [
+    "EmployeeXRefCode",
+    "PositionXRefCode",
+    "DepartmentXRefCode",
+    "JobXRefCode",
+    "PayCodeXRefCode",
+    "PayCategoryXRefCode",
+    "PayDate",
+    "BusinessDate",
+    "TimeStart",
+    "TimeEnd",
+    "PunchSegmentStart",
+    "LocationXRefCode",
+    "NetHours",
+    "MinuteDuration",
+    "Rate",
+    "PayAmount",
+    "IsPremium",
+    "PieceQuantity"
+  ]
+  dest_columns: [
+    'employee_xref_code',
+    'position_xref_code',
+    'department_xref_code',
+    'job_xref_code',
+    'pay_code_xref_code',
+    'pay_category_xref_code',
+    'pay_date',
+    'business_date',
+    'time_start',
+    'time_end',
+    'punch_segment_start',
+    'location_xref_code',
+    'net_hours',
+    'minute_duration',
+    'rate',
+    'pay_amount',
+    'is_premium',
+    'piece_quantity'
+  ]
+  drop_columns: [
+    "LaborMetricsCode0XRefCode",
+    "LaborMetricsCode1XRefCode",
+    "LaborMetricsCode2XRefCode",
+    "LaborMetricsCode3XRefCode",
+    "LaborMetricsCode4XRefCode",
+    "LaborMetricsCode5XRefCode",
+    "LaborMetricsCode6XRefCode",
+    "LaborMetricsCode7XRefCode",
+    "LaborMetricsCode8XRefCode",
+    "LaborMetricsCode9XRefCode",
+    "ProjectXRefCode",
+    "DocketXRefCode"
+  ]
+  dtypes : {
+    'employee_xref_code': 'string',
+    'position_xref_code': 'string',
+    'department_xref_code': 'string',
+    'job_xref_code': 'string',
+    'pay_code_xref_code': 'string',
+    'pay_category_xref_code': 'string',
+    'pay_date': 'timestamp',
+    'business_date': 'timestamp',
+    'time_start': 'timestamp',
+    'time_end': 'timestamp',
+    'punch_segment_start': 'timestamp',
+    'location_xref_code': 'string',
+    'net_hours': 'string',
+    'minute_duration': 'string',
+    'rate': 'string',
+    'pay_amount': 'string',
+    'is_premium': 'string',
+    'project_xref_code': 'string',
+    'docket_xref_code': 'string',
+    'piece_quantity': 'string'
+  }
+  lastupdatecolumn: "lastmodified"
+  start_date: "2022-01-01"
+  end_date: "2022-12-31"
+
+employee_status:
+  src_columns: [
+    "EmployeeNumber",
+    "employmentstatus",
+    "employmentstatusgroup",
+    "paytype",
+    "paygroup",
+    "paytypegroup",
+    "payclass",
+    "paypolicy",
+    "payholidaygroup",
+    "entitlementpolicy",
+    "timeoffpolicy",
+    "payrollpolicy",
+    "EffectiveStart",
+    "LastModifiedTimestamp",
+    "NormalWeeklyHours"
+  ]
+  dest_columns: [
+    "employee_number",
+    "employment_status",
+    "employment_status_group",
+    "pay_type",
+    "pay_group",
+    "pay_type_group",
+    "pay_class",
+    "pay_policy",
+    "pay_holiday_group",
+    "entitlement_policy",
+    "time_off_policy",
+    "payroll_policy",
+    "effective_start",
+    "last_modified_timestamp",
+    "normal_weekly_hours"
+  ]
+  drop_columns: [
+    "RequiresExitInterview",
+    "BioExempt",
+    "BirthDate",
+    "ChecksumTimestamp",
+    "Culture",
+    "EmployeePin",
+    "Gender",
+    "HireDate",
+    "LastPayrollNewHireExportDate",
+    "NewHireApprovalDate",
+    "NewHireApproved",
+    "EstimatedReturnDate",
+    "NewHireApprovedBy",
+    "OriginalHireDate",
+    "PhotoExempt",
+    "SeniorityDate",
+    "FirstName",
+    "LastName",
+    "SocialSecurityNumber",
+    "StartDate",
+    "TerminationDate",
+    "FirstTimeAccessEmailSentCount",
+    "FirstTimeAccessVerificationAttempts",
+    "SendFirstTimeAccessEmail",
+    "LoginId",
+    "HomePhone",
+    "EmployeeBadge",
+    "EligibleForRehire",
+    "EligibleForOnDemandPay",
+    "EligibleForDFWalletPayCard",
+    "IsAboriginal",
+    "IsVisibleMinority",
+    "RegisteredDisabled",
+    "MiddleName",
+    "PreStartDate",
+    "CommonName",
+    "Title",
+    "Initials",
+    "CitizenshipType",
+    "MaidenName",
+    "SSNExpiryDate",
+    "VeteranSeparationDate",
+    "PreferredLastName",
+    "HomeOrganization",
+    "GenderIdentity",
+    "UserAccount",
+    "UnknownBirthDate",
+    "Suffix",
+    "PPACAOverrideDate",
+    "EntitlementOverrideDate"
+  ]
+  dtypes: {
+      'employee_number': 'string',
+      'employment_status': 'string',
+      'employment_status_group': 'string',
+      'pay_type': 'string',
+      'pay_group': 'string',
+      'pay_type_group': 'string',
+      'pay_class': 'string',
+      'pay_policy': 'string',
+      'pay_holiday_group': 'string',
+      'entitlement_policy': 'string',
+      'time_off_policy': 'string',
+      'payroll_policy': 'string',
+      'effective_start': 'string',
+      'last_modified_timestamp': 'string',
+      'normal_weekly_hours': 'string'
+    }
+  lastupdatecolumn: "lastmodified"
+  start_date: "2022-01-01"
+  end_date: "2022-12-31"
+
+
+
+
+payee:
+  src_columns: [
+    "PayeeCategoryName",
+    "PayeeCategoryXRefCode"
+  ]
+  dest_columns: [
+    "PayeeCategoryName",
+    "PayeeCategoryXRefCode"
+  ]
+  drop_columns: [
+    "EarningPayee",
+    "DeductionPayee",
+    "SystemPayee",
+    "PaymentMethod",
+    "PayeeParameters"
+  ]
+  dtypes: {
+    'PayeeCategoryName': 'string',
+    'PayeeCategoryXRefCode': 'string'
+  }
+  lastupdatecolumn: "lastmodified"
+  start_date: "2022-01-01"
+  end_date: "2022-12-31"
+
+
+
+
