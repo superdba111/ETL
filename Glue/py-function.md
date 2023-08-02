@@ -26,8 +26,6 @@ The docstring describes what your function does, what the inputs are, and what t
 
 Example:
 
-python
-Copy code
 def calculate_average(numbers):
     """
     Calculates the average of a list of numbers.
@@ -44,8 +42,6 @@ This is where you perform the task that your function is designed to do. For thi
 
 Example:
 
-python
-Copy code
 def calculate_average(numbers):
     """
     Calculates the average of a list of numbers.
@@ -61,13 +57,13 @@ def calculate_average(numbers):
     average = total / count
     return average
 
+
+
 ## 5. Handle Errors:
 It's also important to handle potential errors in your function. This can be done with Python's try/except blocks, or by checking for potential error conditions and handling them gracefully.
 
 Example:
 
-python
-Copy code
 def calculate_average(numbers):
     """
     Calculates the average of a list of numbers.
@@ -84,6 +80,7 @@ def calculate_average(numbers):
     count = len(numbers)
     average = total / count
     return average
+
     
 ## 6. Test the Function:
 Finally, test your function with different inputs to ensure it works as expected. Unit tests can be very helpful for this.
